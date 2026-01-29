@@ -96,23 +96,23 @@
         </li>
       </ul>    
         </section>
-        <section class="reservation">
+        <section class="reservation" id="reservation">
          <h2 class="reservation__title">Book a table</h2>
          <form class="form reservation__form">
           <fieldset class="form__fieldset">
-            <label for="" class="form__label">
+            <label class="form__label">
               Name *
-           <input type="" class="form__input" placeholder="Name Surname" required/>
+           <input type="" class="form__input" placeholder="Name Surname" required />
            </label>
-           <label for="" class="form__label">
+           <label  class="form__label">
             Number of guest *
-           <input type="number" class="form__input" placeholder="1-8" required />
+           <input type="number" class="form__input" min="1" max="8" required />
            </label>
-           <label for="" class="form__label">
+           <label  class="form__label">
             Date & time *
            <input type="datetime-local" class="form__input" />
            </label>
-           <label for="" class="form__label">
+           <label class="form__label">
             Your email *
            <input type="input" class="form__input" placeholder="email@email.com" required />
            </label>
